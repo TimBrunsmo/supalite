@@ -1,0 +1,65 @@
+{
+  "name": "create-supalite",
+  "version": "0.1.0",
+  "description": "Create a Supabase + Next.js app in seconds",
+  "author": "Tim Brunsmo",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-supalite": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "template",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "supabase",
+    "nextjs",
+    "next",
+    "starter",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "authentication",
+    "auth",
+    "magic-link",
+    "typescript",
+    "react",
+    "create",
+    "cli",
+    "rls",
+    "postgres",
+    "database"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimBrunsmo/supalite"
+  },
+  "bugs": {
+    "url": "https://github.com/TimBrunsmo/supalite/issues"
+  },
+  "homepage": "https://github.com/TimBrunsmo/supalite#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.3.3",
+    "vitest": "^4.0.14"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

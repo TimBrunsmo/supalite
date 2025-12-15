@@ -1,0 +1,20 @@
+# Source files (dist/ is published via files field in package.json)
+src/
+*.ts
+!*.d.ts
+tsconfig.json
+tsup.config.ts
+
+# Development files
+test-*.js
+test-*.mjs
+
+# Git-only documentation (not for npm)
+CONTRIBUTING.md
+SECURITY.md
+
+# Dependencies and artifacts
+node_modules/
+.DS_Store
+*.log
+*.tgz

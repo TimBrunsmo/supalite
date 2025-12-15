@@ -1,0 +1,20 @@
+# Build output
+dist/
+*.tgz
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Development and testing
+test-*.js
+test-*.mjs
