@@ -12,7 +12,6 @@
     "dist",
     "template",
     "README.md",
-    "CHANGELOG.md",
     "LICENSE"
   ],
   "scripts": {
