@@ -49,7 +49,7 @@
   "homepage": "https://github.com/TimBrunsmo/supalite#readme",
   "dependencies": {
     "@clack/prompts": "^0.7.0",
-    "@supabase/supabase-js": "^2.39.0",
+    "@supabase/supabase-js": "^2.118.0",
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
